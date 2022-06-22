@@ -1,17 +1,18 @@
 # AnomalyDetection
 This is the sub-project of Industry-University Cooperation for implementing the anomaly detection.
 
-## project preview
+## #project preview
 ![Select_AdobeExpress](https://user-images.githubusercontent.com/43237393/174948802-0b33d1e6-2c9d-4a82-be88-3cc7d707d1a8.gif)
 
-## Developer
+## #Developer
+This is the sub-project of Industry-University Cooperation. (go this [link](https://github.com/ajs3801/LGuplus))
 
-## Functionality
+## #Functionality
 1. Select the region of interest
 2. Detect any Anomaly(movement)
 3. Predict the anomaly whether it is human activity or unknown activity
 
-## Requirements
+## #Requirements
 
 We use yolov5 to detect whether the movement is human or not. (see more detail in [here](https://docs.ultralytics.com/tutorials/pytorch-hub/))
 ```
@@ -25,7 +26,7 @@ $ pip3 install torch torchvision torchaudio
 $ pip3 install opencv-python
 ```
 
-## Getting start
+## #Getting start
 Python file execute
 ```
 python3 ./AnomalyDetection.py
@@ -38,6 +39,6 @@ VIDEO_PATH = 'video/sample.mp4'
 to custom
 
 if you want to detect in realtime on your webcam, modify VideoCapture ID to catch your webcam. (ID can be diverse depending on your OS and system)
-```pythonse
+```python
 cap = cv2.VideoCapture(0)
 ```
