@@ -4,6 +4,8 @@ This is the sub-project of Industry-University Cooperation for implementing the 
 ## project preview
 ![Select_AdobeExpress](https://user-images.githubusercontent.com/43237393/174948802-0b33d1e6-2c9d-4a82-be88-3cc7d707d1a8.gif)
 
+## Developer
+
 ## Functionality
 1. Select the region of interest
 2. Detect any Anomaly(movement)
