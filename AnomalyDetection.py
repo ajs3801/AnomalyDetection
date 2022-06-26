@@ -11,7 +11,7 @@ class detection:
   def __init__(self):
     self.model = torch.hub.load('ultralytics/yolov5', 'yolov5n')  # or yolov5n - yolov5x6, custom
     self.classes = self.model.names
-    self.device = 'cpu'
+    self.device = 'mps' if torch.backends.mps.is_available() else 'cpu'
 
   def score_frame(self, frame):
     """
