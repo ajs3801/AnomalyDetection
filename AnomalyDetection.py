@@ -112,6 +112,7 @@ def defineRectangle(point_list):
 # video의 첫번째 프레임을 받아옴
 
 VIDEO_PATH = 'video/carandhuman.mp4'
+CAM_ID = 0
 
 cap = cv2.VideoCapture(VIDEO_PATH)
 ret_init,frame_init = cap.read()
